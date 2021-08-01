@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7649d5e3-f690-4349-845e-34e5db537b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Kev">
+      <UniqueIdentifier>{e05dc3e0-8d49-415c-accd-6cdd4c83dab8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Kev\Application.cpp">
+      <Filter>src\Kev</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Kev\Application.h">
+      <Filter>src\Kev</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kev\Core.h">
+      <Filter>src\Kev</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kev\EntryPoint.h">
+      <Filter>src\Kev</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kev.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
